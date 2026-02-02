@@ -1,10 +1,183 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Aditya Dewan | Data Portfolio</title>
-  </head>
-  <body>
-    <h1>Hello, I’m Aditya 👋</h1>
-    <p>This is my data analytics portfolio.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Dewan | Data Analytics Portfolio</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    .hero {
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: var(--accent);
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.9);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 30px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: var(--muted);
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 18px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <section class="hero">
+      <h1>Aditya Dewan</h1>
+      <p class="subtitle">
+        Data Analyst with a strong focus on
+        <span class="highlight">Power BI</span>,
+        analytics, and storytelling through data.
+        I enjoy turning raw datasets into clear insights
+        that support better decisions.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>What I Do</h2>
+      <ul>
+        <li>Build interactive and insight-driven dashboards in Power BI</li>
+        <li>Analyze economic, financial, and business datasets</li>
+        <li>Explore patterns, trends, and anomalies using Python & SQL</li>
+        <li>Present complex data in a simple, human-friendly way</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Skills & Tools</h2>
+      <div class="skills">
+        <div class="skill">Power BI</div>
+        <div class="skill">DAX</div>
+        <div class="skill">Excel</div>
+        <div class="skill">Python</div>
+        <div class="skill">Pandas</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Exploratory Data Analysis</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <p class="subtitle">
+        This portfolio showcases selected projects including:
+      </p>
+      <ul>
+        <li>📊 Economic Performance of India (1947–Present)</li>
+        <li>💳 Credit Card Fraud Detection (Machine Learning)</li>
+        <li>📈 Financial & Market Analysis Dashboards</li>
+      </ul>
+      <p class="subtitle" style="margin-top:14px;">
+        Detailed project pages with screenshots and insights coming next.
+      </p>
+    </section>
+
+    <section class="card links">
+      <h2>Connect</h2>
+      <a href="https://github.com/adityadewan1" target="_blank">GitHub</a>
+      <!-- Add LinkedIn later -->
+      <!-- <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a> -->
+    </section>
+
+    <footer>
+      © 2026 · Built with GitHub Pages
+    </footer>
+
+  </div>
+</body>
 </html>
